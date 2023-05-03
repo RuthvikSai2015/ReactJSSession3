@@ -1,0 +1,399 @@
+ React JS 
++++++++++++++++++++++++++++++++++++++++++++++
+
+Savitha Ramesh
+9+ years of Experience fullstack developer 
+
+Application 
+
+what is front-end?
+   
+   User Interaction(user interface) end-user perspective it is user interface whereas from developer perspective
+  it will be an interface design 
+
+what is back-end?
+
+  refers to the server side development mainly deals with databases,scripts and architecture 
+
+what is full-stack?
+
+  full stack comprises both front-end and back-end together with deployments
+
+--------------------------------------------------------------------------------------------------------
+
+Pre-requisites to learn React JS
+
+  -> we need basics of HTML , CSS 
+  -> basics of javascript 
+
+   Course Content 
+-----------------------------------------------------------------
+  Learn Javascript and React JS
+
+  Topics covered in this course is as follows 
+
+  1) HTML , CSS
+  2) Javascript => let & const , callbacks, prototype ajax , export ,import, objects,arrays
+  3) React Introduction
+  4) Environment setup 
+  5) Essentials
+  6) States and Props
+  7) React Hooks
+  8) Router and Forms
+  9) Styling in React JS 
+  10) Redux
+  11) Important Topics
+  12) Integrations 
+  13) Real Time Project using React JS 
+
+
+  Course duration: 45 days 
+  class : Mon  - Sat 
+  Time : 7:30 pm - 8:30 pm (1.5 hrs)
+
+
+  Advantages with Ashok IT
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  1) Live Online Training 
+  2) Soft Copy Material 
+  3) Doubts Clarification
+  4) Back up Videos => 1 year access
+  5) Telegram group for communication 
+  6) Resume Preparations
+  7) Placement assistance 
+
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  you can check the complete the details of this course on ashok it website
+
+  https://www.ashokitech.com/react-js-online-training
+
+  
+  What is React JS?
+
+     react js is a javascript library for building user interfaces . React is the most popular front end development tool which is currently in use 
+
+  why React JS / advantages of React JS
+
+  -> Easy to write the code and light weight 
+  -> Reusable Component based
+     ex: Login Component 
+          users : students,employees , agents 
+          Generic Component Login can be re-used for all type of users
+  -> Design Simple views 
+  -> Not too hard to learn 
+  -> React makes it painless to create interactive UI's
+
+   what is the demand for react JS?
+
+      React js is one of the most demanded in market
+      some of the tech companies like netflix,paypal and facebook 
+
+  what is the demand for job oppurtunities ? 
+
+   Naukri.com(73542) 
+------------------------------------------------------------------------------------------------------------
+  
+  HTML => Hyper text Mark up Language (mark the content as text: bold italic ) 
+
+  => tags 
+
+  => HTML was invented by Sir Tim Berners Lee in late 1991
+  => HTML is used to develop static web pages 
+  => It can saved with ".html" or ".htm" extension 
+
+    why to learn HTML?
+
+    -> create a website
+    -> become a web designer 
+    -> master other front-end technologies like javascript,angular, react , vue etc 
+
+    IDE => Microsoft Visual Studio Code => Microsoft , Open Source 
+
+    Online Editors
+    Offline Editors 
+    IDE => VS Code 
+
+    https://code.visualstudio.com/Download
+
+    how can we execute HTML? 
+
+    With the help of Browsers: Google Chrome, IE(edge) , Mozilla , Opera 
+
+    https://www.w3schools.com/html/html_examples.asp
+    https://www.w3schools.com/html/html_quiz.asp
+
+    Change/Add the default styles using CSS => Cascading Style Sheets
+
+   font-size, width , color 
+
+   Background Color, Border, Margins , Padding 
+ 
+   <html> <head> </head><body>
+
+   https://www.w3schools.com/Css/
+   https://www.w3schools.com/Css/css_quiz.asp 
+
+   Assignment 1 => Profiler Page 
+
+   how can we make the web pages dynamic?
+
+   we have a scripting language called javascript used to convert static content to dynamic content 
+
+   =========================================================================================================
+
+  Javascript is a programming scripting language which we can use to develop any type of web application
+    Web Development  . Client Side scripting language
+
+    Script => which executes in browser (function / program which gives output ) 
+
+    LiveScript => initial version
+
+      Java programming language was becoming popular 
+
+    JavaScript => renamed as javascript 
+
+   
+    1. Editors / Notepad++ IDE 
+        Sublime Text 
+        Atom
+        Brackets
+        webstorm 
+        VS Code(recommended) Auto Save , Live Server Extension
+
+    2. Each and every browser will have its own javascript engine 
+
+       Ways to write javascript code 
+      1. <script></script>
+      2. External file and then include that as path of the script tag  
+
+
+    3. remove the overhead of saving the file using Auto Save option in VS Code
+
+    4. remove the overhead of refreshing the browser by using live-server option
+
+    
+    which is the best place to put javascript code?
+     => in body placing the javascript code
+	 
+	 ==============================02-05-2023====================================
+
+    Javascript Variables and data types 
+    ----------------------------------------------------------------------------------------
+
+    Variable is a named storage for data 
+
+    Variables are used to store the information 
+
+    Rules to follow while making use of variables 
+
+    1. Variable name should contain only letter,digits,symbols($) and (_)underscore 
+    2. First character must not be the digits 
+    3. Variable Names should be in camelCase 
+
+    let firstname;  //valid
+    let FIrstname;  //valid
+    let firstNAME;  //valid
+    let first_name: //valid 
+
+    let firstName; // camelCase is always preferred 
+
+    Declaring the Variable 
+   
+    let message ; //declaration 
+    message = "Javascript" // initialization 
+
+    let message = "Javascript" 
+
+    let user = "kumar", age=32, message="Javascript" ; //100% valid 
+
+    let user = "Kumar";
+    let age = 32;
+    let message = "Javascript"
+   
+    let $ = 3; // valid
+    let my_name ; // valid
+    let _ = 2; // valid
+    let 1a=4; // invalid violating Rule No 2
+
+   4. Variable Names are Case Sensitive
+
+      let apple;   // both are not same in javascript 
+      let aPple;
+
+   5. Should not use keywords/reserved words 
+
+      let let=10; // error 
+      https://www.w3schools.com/js/js_reserved.asp
+
+     Exercise : 
+         Assignment1
+  
+		  /*
+		Mark and John are trying to compare their BMI (Body Mass Index), 
+		which is calculated using the formula: 
+		BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+		1. Store Mark's and John's mass and height in variables
+		2. Calculate both their BMIs using the formula (you can even implement
+		both versions)
+		3. Create a boolean variable 'markHigherBMI' containing information
+		about whether Mark has a higher BMI than John.
+		TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg
+		and is 1.95 m tall.
+		TEST DATA 2: Marks weights 95 kg and is 1.88 m tall.
+		John weights 85 kg and is 1.76 m tall.
+		GOOD LUCK 😀
+		*/ 
+		
+		Data Types
+		----------------------------------------------------------------------------
+		
+		let message = "Javascript"; // string 
+		    message = 10 ;
+		
+		Javascript is a dynamically typed language 
+		
+		10+10 = 20
+		10+"10" = "1010"
+		
+		1. Number type
+		   let n = 123 ;
+		   let m = 123.45;
+		    typeof n => number , typeof m => number
+			typeof typeof n => string 
+			
+	    2. BigInt
+		   2^53-1 and -(2^53-1) this is a range bound 
+		   limitations of number 
+		   let n = 78654341234724313465564545n;
+		
+		3.string 
+		  let a = "hello";
+		  let b = 'hello';
+		  let c = `hello`; //template string literal 
+		  
+		4. Boolean 
+		true or false
+		if(10>1){ }
+		
+		5. undefined 
+		   In javascript you declare a variable and not assign any value then it will 
+		   hold undefined it.
+		   let a;
+		   console.log(a);
+		   
+		6. null 
+		   let a = null;
+		   in javascript null means "reference to non existing object "
+		   typeof a => object 
+		   
+		   let a = 10;
+		    a = "string " 
+			let a ;
+			 a = null;  a = {} ;
+			 
+			 a=null;  // clearing
+			 
+			 a= 20; //assigning
+			 
+			 a = "string";
+			 
+			 a= ""; // re-assigning 
+			 
+			 a=null; // clearing 
+			 
+	 ==============================03-05-2023======================================
+	 
+	       Data type used to store single value are known as Primitive data types 
+		   Data types are used to store multiple values are known as Non Primitive Data types
+	 
+	      Object, Arrays
+		  
+		  Objects => Collection of various data types (stores the data in key value pair)
+		  
+		 
+		    let userObj = {
+				name : "savitha",
+				age : 28,
+				id : 1234
+			}
+			
+			 what are the ways to declare an object?
+			 
+		 1. let user = new Object(); // object constructor syntax 
+         2. let user = {}; // object literal syntax	
+
+            delete operator can be used only to delete property of an object 
+
+            reserved words can be added as key/property to objects as it adds a seperate meaning			
+                		  
+	 
+	 
+		
+		
+ 
+    
+
+    
+
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
