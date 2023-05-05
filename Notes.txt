@@ -233,7 +233,8 @@ Pre-requisites to learn React JS
 		  /*
 		Mark and John are trying to compare their BMI (Body Mass Index), 
 		which is calculated using the formula: 
-		BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+		BMI = mass / height ** 2 = mass / (height * height). 
+		(mass in kg and height in meter).
 		1. Store Mark's and John's mass and height in variables
 		2. Calculate both their BMIs using the formula (you can even implement
 		both versions)
@@ -245,6 +246,22 @@ Pre-requisites to learn React JS
 		John weights 85 kg and is 1.76 m tall.
 		GOOD LUCK 😀
 		*/ 
+		
+		//step 1 	
+		let heightMark = 1.69 
+		let heightJohn = 1.95
+		let massJohn = 92
+        let massMark = 78 
+
+        //step2 
+        let BMIMark = massMark/heightMark ** 2;
+		let BMIJohn = massJohn/(heightJohn*heightJohn);
+		
+		let markHigherBMI = BMIMark > BMIJohn;
+		
+		console.log("Higher BMI------------",markHigherBMI);
+         		
+		
 		
 		Data Types
 		----------------------------------------------------------------------------
@@ -326,7 +343,68 @@ Pre-requisites to learn React JS
 
             delete operator can be used only to delete property of an object 
 
-            reserved words can be added as key/property to objects as it adds a seperate meaning			
+            reserved words can be added as key/property to objects as it adds a seperate meaning	
+
+======================================================================================================
+            04-05-2023
+			
+            GIT => 	is a version control system 
+                    helps you to keep track of code changes 
+
+            https://github.com/
+			
+            https://git-scm.com/downloads
+			
+            1. Created a git account 
+
+            2. Created a public Repository			
+
+            3. git clone https://github.com/RuthvikSai2015/ReactJsSession4.git
+			
+			   created one file README.md
+			   
+			  git diff 
+			   Author : 
+			   SR Id: 
+			   Changes :
+			
+			4. git add .
+			
+			5. git commit -m "first commit" // local
+			
+			6. git push -u origin main
+			
+			7. git pull 
+			
+			https://github.com/RuthvikSai2015/ReactJSSession3
+			
+			 Author : 
+			 SR Id: 
+			 Changes :
+			 
+========================================================================================
+            05-05-2023
+			
+			Arrays => Collection of elements 
+			          are used to store ordered collection of data 
+					  
+		    ways to declare an Array 
+			1. let arr = new Array(); 
+			2. let arr = [] ;  
+			
+			greatest numeric index + 1 
+			
+			Assignment2: Execute the Array Methods 
+			             https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+			
+			let arr = [];
+			    arr[123]="apple"
+				console.log(arr.length);
+			      
+
+
+
+         			
                 		  
 	 
 	 
