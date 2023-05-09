@@ -395,11 +395,140 @@ Pre-requisites to learn React JS
 			greatest numeric index + 1 
 			
 			Assignment2: Execute the Array Methods 
-			             https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+		    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 			
 			let arr = [];
 			    arr[123]="apple"
-				console.log(arr.length);
+				console.log(arr.length); // 124 , 124
+				
+-------------------------08-05-2023-----------------------------------------------
+
+            Diff between == and === ?
+			
+			    == value compared
+				=== value and type is compared 
+				
+			type coercion => converting value from one type to other 
+			
+			  1 == "1"  => true => type coercion 
+			  1 === "1" => false => not do type coercion just check with data type
+			  
+			  1 === "2" => false 
+			  
+	    Q. how do you make an array empty ?
+		     arr.length = 0; 
+			 arr = [];
+			  
+    ------------------------------------------------------------------------
+	
+	          Javascript functions 
+			  
+		  => functions are the building blocks
+		      Allow not to repeat the code 
+			  
+			   Trying to book a flight => bookFlight(flightId,name,timing,src,desc) 
+			   
+			   One function one task 
+			   
+			  Diff btw Function Declaration and Function Expression 
+			  
+			  => with  function declaration calling is possible without declaration
+			  => with function expression calling is not possible without declaring it 
+			  
+		   => Conditional Statements
+              let age = 30 ;
+              if(age > 70) {
+                     //senior citizen benefit
+                 }else{
+                     //some other benefit
+                }			
+				
+             truthy and falsy values 	
+			  NaN that is not a legal number 
+			     if(" "){}else{}
+                 if(0){
+                     // 1
+                  } else {
+				     //2
+				  }		
+                 0 means false 
+
+                0, NaN , undefined , false 	
+
+         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#:~:text=Broadly%20speaking%2C%20JavaScript%20has%20four%20kinds%20of%20functions%3A,be%20paused%20and%20resumed%20with%20the%20await%20operator				
+			
+--------------------------09-05-2023-----------------------------------------
+
+           if () {
+             } else if () {}	
+			  else if () {}
+			  else if () {}
+              else if () {}
+              else if () {}
+              else if () {}
+              else if () {}
+              else if () {}
+              else if () {}
+              }		
+           
+           	 switch statements   => used to select one of many code blocks to be executed
+			 
+			 switch( new Date().getDay()){
+			 
+			 case 0:
+			     day = "Sunday";
+				 break;
+			  case 1:
+			     day = "Monday";
+				 break;
+			  case 2;
+			     day = "Tuesday";
+				 break;
+			  case 2;
+			     day = "Tuesday";
+				 break;
+			  case 2;
+			     day = "Tuesday";
+				 break;
+			  case 2;
+			     day = "Tuesday";
+				 break;
+			  case 2;
+			     day = "Tuesday";
+				 break;
+				 
+	    Loops :
+		       loops are a way to repeat the same code number of times 
+			   
+			   sum()
+			   sum()
+			   sum()
+			   sum()
+			   sum()
+			   
+			   // loop = 5  {
+			   
+			        sum()
+					
+				 }
+				 
+			 while and for loops 
+			   
+		     Objects for .. in loop
+			 Arrays for .. of loop
+			  
+			  
+			  Assignment : 3 construct an object and array of objects
+			  https://jsoneditoronline.org/#right=local.qokili&left=local.ticoyus
+			  
+			  
+			  
+			  
+
+    
+			 
+			  
+			  
 			      
 
 
