@@ -521,6 +521,127 @@ Pre-requisites to learn React JS
 			  Assignment : 3 construct an object and array of objects
 			  https://jsoneditoronline.org/#right=local.qokili&left=local.ticoyus
 			  
+	-----------------------------10-05-2023--------------------------------------------
+	       
+		   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+			 
+			 Diff btw Let , Var and Const 
+			 
+			   let a;
+			   var a;
+			   const a;
+			   
+			  In terms of 
+			  
+			  1. Hoisting
+			  2. Scope/Memory
+			  3. Redeclaration/ Updation 
+			  
+			  Hoisting means it is a mechanism where it moves the variable/function 
+			  declaration to the top of its nearest scope 
+			  
+			   console.log(a);
+			   var a = 10;
+			  
+			  Internally 
+			  
+			  var a;
+			  console.log(a);//nearest scope
+			  a = 10 ;
+	          
+			  with let hoisting will not work 
+			  with const hoisting will not work 
+			  
+			  ES6 let and const were introduced to reduce the bugs at run time 
+			  
+			  const ORG_NAME = 'AshokIT'; // let 
+			  const birthYear = 1993; //const is preferred 
+			  
+			  2. Scope/Memory 
+			  
+			    var is a function level scope 
+				let/const are block level scope { }
+			  
+			  var scope will be available throught the function 
+			  let means block level scope only in that block it will be visible
+			  
+			  should i go with let or var ?
+			  done with code why to hold the memory ?
+			  we should go with let 
+			  
+			  3. Redeclaration / Updation 
+			  
+			    var supports redeclaration and  updation 
+				
+				let supports only updation 
+				
+				with const no redeclaration / updation 
+				
+===========================11-05-2023==========================================
+                Destructuring of Objects and Array 
+				
+				Extracting the property from an object and assigning them to variable
+				
+				let user = {
+				      name : "akash",  // name = akash
+					  age : 28         // age = 28
+					  email : "akash@gmail.com" // email = akash@gmail.com
+				}
+				
+				1. user.name 
+				
+				2. user.name 
+				10 times user.name 
+				
+				user.name into one variable called name ;
+				
+				const { name , age , email } = user;
+				
+				key and variable names should match 
+				
+				while destructuring we have the ability to give default values 
+				
+				//default value
+				
+				const { name,mobileNumber="123456789"} = user; 
+				
+				//ternary operator 
+				
+				const varName = condition ? "if true will execute " : "if false will execute"
+				
+                // alias Names 
+				
+				const { name } = user ;
+				
+				const name = "savitha"; 
+				
+				{ name:aliasName }
+				const { name:firstName } = user; // adding alias
+				
+				Task:
+				// destructure user.address.location.lat
+				              user.address.location.long
+				let user = {
+				name : "akash",  // name = akash
+				age : 28 ,      // age = 28
+				email : "akash@gmail.com", // email = akash@gmail.com
+				mobileNumber : "987654321",
+				address : {
+						   city:"bangalore",
+						   place:"k r puram",
+						   pincode:560049,
+						   location :{ lat:123456,
+										long:456783
+						   }
+				    }
+			   }
+                
+			   Arrays Destructuring 
+			  
+			  
+			 
+	          
+			  
 			  
 			  
 			  
