@@ -637,6 +637,26 @@ Pre-requisites to learn React JS
 			   }
                 
 			   Arrays Destructuring 
+			   
+			   
+				let arr = ["ramesh","kumar","123","456","567","789"];
+
+				let [firstName,lastName,...numbers] = arr;
+
+				console.log(firstName);
+				console.log(lastName);
+				console.log(numbers);
+			
+====================12-05-2023==============================================
+
+             Optional Chaining 
+			 
+			 console.log(johnData?.address?.city);  
+			 
+			 Arrow Functions
+			 Map and Filter 
+			 Scope
+			 Imports and Exports 
 			  
 			  
 			 
