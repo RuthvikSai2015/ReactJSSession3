@@ -708,7 +708,8 @@ Pre-requisites to learn React JS
 			Local Scope => { } //limited
 			Global Scope => it is accessible all over my program 
 			
-			
+	--------------------16-05-2023----------------------------------
+	
 	        Callbacks 
 			 are used to achieve asynchronous way of programming 
 			 
@@ -721,6 +722,38 @@ Pre-requisites to learn React JS
 			=> They allow you to create speerate and reusable components
 			=> Export allows you to export a module to be used in another javascript program
 			=> we can use import to import that module to use it in our component 
+			
+====================React JS ===================================
+
+           what is React JS ?
+		     ReactJs is a javascript library used to develop apps
+			 
+			 why reactjs was invented?
+			    one change only that particular portion of the page has to be refreshed
+				not whole page 
+				
+		    Component Based Architecture 
+			
+			1) Reusability
+			2) Identify Bugs
+			3) Easy to Maintain 			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			 
