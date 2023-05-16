@@ -3,7 +3,9 @@ let sum = function(a,b){
 }
 
 //1. Arrow functions
-let addNumbers = () => { return a+b };
+let a=10,b=20;
+
+let addNumbers = () => a+b ;
 
 // need to double a number
 let double = function(n){
@@ -17,7 +19,7 @@ let doubleNumber = n => n*2;  // return n=n*2
 
 console.log(doubleNumber(10));
 
-
+console.log("add-",addNumbers());
 
 
 

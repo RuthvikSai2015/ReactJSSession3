@@ -657,8 +657,72 @@ Pre-requisites to learn React JS
 			 Map and Filter 
 			 Scope
 			 Imports and Exports 
+			 Debugging of Javascript 
+			 
+			 Arrow Functions
+			 function functionName(a1,a2....an){
+			    //function body 
+			 }
+			 
+			 let sum = function(a,b){
+			    return a+b ;
+			 }
+			 sum()
+			 
+			 // Map and filter functions 
+			 
+			 const numbers = [1,2,3,4]
+			 
+			 Map => iterate over each and every element in the array 
+			         perform some transformation or computation 
+					 
+				[1,2,3,4] = [2,4,6,8]
+				
+		     map returns array always 
+			 
+===============================15-05-2023========================================
+
+            Filter Method 
+			
+			 works on array . you want to filter the data ,you need apply the condition on 
+			 each and every element 
+			 
+			 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+			 
+			 Debugging in Javascript 
+			 
+			1. console.log()
+			   console.assert(exp,message); //only error occurs it will be printed 
+
+            2. debugger; // keyword used to stop execution 
+
+            3. Browser breakpoint 
+
+            4. Conditional Breakpoint 	
+                Right Click => Add a conditional break point 			
+			 
+	---------------------------------------------------------------------------		 
+			 
+			Scope => Visibility of an element 
+			
+			Local Scope => { } //limited
+			Global Scope => it is accessible all over my program 
+			
+			
+	        Callbacks 
+			 are used to achieve asynchronous way of programming 
+			 
+			A callback is a function that is passed as an argument to another function 
+			
+			  to be "called back" at a later time(exception,deadlock,successful)
 			  
-			  
+			Import and Export => ES6 Concept 
+			
+			=> They allow you to create speerate and reusable components
+			=> Export allows you to export a module to be used in another javascript program
+			=> we can use import to import that module to use it in our component 
+			
+			
 			 
 	          
 			  
