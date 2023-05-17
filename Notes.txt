@@ -738,11 +738,38 @@ Pre-requisites to learn React JS
 			2) Identify Bugs
 			3) Easy to Maintain 			
 			
+			-----------------17-05-2023-------------------------------------------
 			
+			https://react.dev/learn
 			
+			Virtual DOM is a strategy to compute minimal DOM Operations when 
+			re-rendering the user interface .
 			
+			Project setup 
 			
+			1) live server 
+			2) live reload 
+			3) babel transpiler (js engine) 
 			
+			CLI -> Command line interface 
+			     everything will be taken care with single run command
+				 
+			=> npx create-react-app project-name
+			
+			1. Node js should be downloaded and installed (LTS )
+			    https://nodejs.org/en 
+				
+				npm -> node package manager -> used to maintain the dependencies and it will consume the space in local 
+				npx -> node package executable -> execute the command only once and it will not install in your local 
+			
+			  => node -v
+			  => npm -v 
+			  
+			  npm -g create-react-app project-name 
+			  
+			  npx create-react-app sampleapp
+			  
+			   ES7 React/Redux/GraphQL/React-Native snippet -> Extension should be enables
 			
 			
 			
