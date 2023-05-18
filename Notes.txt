@@ -770,8 +770,34 @@ Pre-requisites to learn React JS
 			  npx create-react-app sampleapp
 			  
 			   ES7 React/Redux/GraphQL/React-Native snippet -> Extension should be enables
+			   
+	--------------------------------------18-05-2023----------------------------------------
+	
+	        Zero configuration 
 			
+			1) Dev Server
+			2) Live Reloading
+			3) Babel
+			4) Webpack (bundle our code) Ready to deploy production build
+			   npm run build 
 			
+			  npm start 
+			  
+			  Browser can only understand HTML , CSS and Javascript (JS Engine) 
+			  
+			  Now how browser will understand react js? 
+			  
+			  Babel Transpiler (convert your react to javascript)
+			  Transpiling the code (Translation) 
+			  
+			  Babel Transpiler comes default with React app
+			  
+			  1. index.html under public folder 
+			     all our code in reactjs will go inside this
+				 
+			  2. index.js 
+			  
+			  
 			
 			
 			
