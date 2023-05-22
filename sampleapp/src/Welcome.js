@@ -1,9 +1,9 @@
 // import React from 'react'
 // import {Fragment} from 'react' 
-function Welcome(){ 
+function Welcome() {
     return (
         <>
-            <h2> Welcome to React </h2>
+            <h2> Welcome to React {Math.floor(Math.random() * 30)} </h2>
             <p> Paragraph </p>
         </>
     )

@@ -865,8 +865,51 @@ Pre-requisites to learn React JS
 		     <Fragment>  </Fragment>
 				
 		   3)  <> </>
-				
+		   
+---------------------------22-05-2023----------------------------
+
+           Dependencies     => The project completely depends on this part,
+		                       react and react dom is a dependency
+		   
+		   Dev Dependencies => developer wants some flexibility 
+		                       intendation , some plugins are required
+				               Ex: Prettier format the code   
+							       Unit testing also dev dependency 
+								   
+			 npm install --save lodash => dependencies 
+			 
+			 npm install --save -D lodash
+			  -D dev dependency 
 			  
+			 npm i -D moment
+			 
+			 your deployment env(system)  has 18 and project is 16 
+			 
+			     18 one hook was introduced? will it work in 16 ? no 
+				 
+			 1) will the project work ? yes / no 
+			    yes how ? 
+				no how? no 
+			    18 some features may be removed/added
+				16 // error 
+				
+			 2) check the compatibility 
+			 3) encounter some errors match the version 
+			 
+	         React Props 
+			 
+			  Props stands for properties 
+			  they are equal to function parameters 
+			  
+			  {props.age} conditions => {undefined}{null}{true}{false} 
+			  
+			  
+			 
+			   
+			 
+			 
+			 
+			 
 			  
 			
 			

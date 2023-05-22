@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './Welcome'
+// import Welcome from './Welcome'
+import Greeting from './Greeting';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* <p>
+      {/* <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" /> */}
+      {/* <p>
           Edit <code>src/App.js</code> React js 
         </p>
         <a
@@ -18,14 +19,15 @@ function App() {
         >
           Learn React
         </a> */}
-      </header>
+      {/* </header> */}
+      {/* <Welcome/>
       <Welcome/>
       <Welcome/>
-      <Welcome/>
-      <Welcome/>
-      <Welcome/>
+      <Welcome/> */}
+      <Greeting name="rahul"/> 
+      <Greeting name="krishna" age={28} />
     </div>
-   
+
   );
 }
 
