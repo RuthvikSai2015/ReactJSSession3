@@ -883,7 +883,7 @@ Pre-requisites to learn React JS
 			  
 			 npm i -D moment
 			 
-			 your deployment env(system)  has 18 and project is 16 
+			 your deployment env(system)  has 16 and project is 18
 			 
 			     18 one hook was introduced? will it work in 16 ? no 
 				 
@@ -902,6 +902,63 @@ Pre-requisites to learn React JS
 			  they are equal to function parameters 
 			  
 			  {props.age} conditions => {undefined}{null}{true}{false} 
+			  
+-----------------------24-05-2023-------------------------------------
+
+			  Assignment React Props 
+			  
+			  => Investigate Falsy values 
+			  
+			1. Props are special keyword of reactjs
+			2. The default value is true 
+			3. we can pass any data as props value 
+			4. we cannot use objects,arrays directly inside the component jsx 
+			5. When passing numbers , expressions , variables try to use {}
+			6. If we are not passing all props we will not get any error 
+			7. we can pass default values {name,email,hobbies="reading"} in destructuring 
+			8. Parent Component is going to communicate to child component (one way)
+			9. more than 5 props . we need to do object destructuring (recommended) 
+			
+			Assignment 2: 
+			
+			Display the Objects,Arrays  passed as props 
+			
+			Destructuring of object
+			
+			let user = { name: "savitha",
+               email: "savitha@gmail.com",
+               hobbies: "singing,collecting stamps" 
+              }; 
+			  
+			  const {name,email,hobbies} = user;
+			  
+			  props.user ;
+			  
+			  {props.user.name}
+			  {props.user.email}
+			  {props.user.hobbies}
+			  
+			    let user = { name: "savitha",
+                             email: "savitha@gmail.com",
+                             hobbies: "singing,collecting stamps" 
+                           };
+			  
+               const {name,email,hobbies} = user;
+			   
+			   //name = {user.name} email = {user.email} hobbies={user.hobbies} 
+			   
+			     {props.user.name}
+			     {props.user.email}
+			     {props.user.hobbies}
+			   
+			   const {name,email,hobbies} = user;
+			   
+			   Props are read only 
+			   
+			   Pure Functions in React => dont modify the props values 
+			   
+			   
+			  
 			  
 			  
 			 
