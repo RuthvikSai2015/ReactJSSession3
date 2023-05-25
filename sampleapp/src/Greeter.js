@@ -19,7 +19,8 @@ function Greeter({name,email,hobbies="reading"}) { //const {name,email,hobbies} 
             <p> Name is {name}</p>
             <p> Email is {email}</p>
             <p> Hobbies is {hobbies}</p>
-            <Greeting name="Krishna Kumar"/>
+
+            <Greeting name="Krishna Kumar" showNav/>
            
         </>
     )

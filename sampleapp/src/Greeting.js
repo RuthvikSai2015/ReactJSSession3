@@ -7,6 +7,7 @@ function Greeting(props) {
             <p> Course Name is : {props.courseName} </p> */}
             <p> This is Greeting Component</p>
             <p> My name is  {props.name}</p>
+            <p> ShowNav is {props.showNav} </p>
             <p> Hobbies are singing,collecting stamps</p>
         </>
     )

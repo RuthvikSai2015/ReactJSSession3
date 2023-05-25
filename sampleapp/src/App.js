@@ -3,15 +3,17 @@ import './App.css';
 // import Welcome from './Welcome'
 import Greeting from './Greeting';
 import Greeter from './Greeter';
+import UserBasedLogin from './UserBasedLogin';
+import LogicalOperator from './LogicalOperator';
 
 function App() {
-  let course = "reactjs";
-  let user = { name: "savitha",
-               email: "savitha@gmail.com",
-               hobbies: "singing,collecting stamps" 
-              };
-  const {name,email,hobbies} = user;
-  let objArray = ["1", "2", "3"];
+  // let course = "reactjs";
+  // let user = { name: "savitha",
+  //              email: "savitha@gmail.com",
+  //              hobbies: "singing,collecting stamps" 
+  //             };
+  // const {name,email,hobbies} = user;
+  // let objArray = ["1", "2", "3"];
   
   return (
     <div className="App">
@@ -38,10 +40,13 @@ function App() {
     
       {/* <Greeter name = {user.name} email = {user.email} hobbies={user.hobbies}/> */}
 
-      <Greeter name = {user.name} email = {user.email} hobbies="playing"/>
+      {/* <Greeter name = {user.name} email = {user.email} hobbies="playing" /> */}
 
       {/* <Greeter name = "kumar" /> */}
-       
+{/*        
+       <UserBasedLogin isLoggedIn={false}/> */}
+
+       <LogicalOperator isLoading={true}/>
       
     </div>
 

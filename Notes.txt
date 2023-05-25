@@ -957,7 +957,28 @@ Pre-requisites to learn React JS
 			   
 			   Pure Functions in React => dont modify the props values 
 			   
-			   
+	-----------------------25-05-2023------------------------------------------------------
+			 
+               Conditional Rendering 	
+
+               CR means ability to render different UI Component based on true or 
+                  false components 
+				  
+				ternary Operator 
+				
+				condition/exp ? "if it is true this part will get executed " :
+				" if it is false this part will execute"
+				
+				for situation where there are 2 expected outcomes go for ternary operator
+				
+				for situation where there is only one expected outcome 
+				  shortcut logical operator
+
+				  true && false  
+				  true && true
+				  false && false
+				  false && true 
+				  
 			  
 			  
 			  
