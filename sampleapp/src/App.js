@@ -5,6 +5,7 @@ import Greeting from './Greeting';
 import Greeter from './Greeter';
 import UserBasedLogin from './UserBasedLogin';
 import LogicalOperator from './LogicalOperator';
+import EventHandlingExample from './EventHandlingExample';
 
 function App() {
   // let course = "reactjs";
@@ -17,8 +18,8 @@ function App() {
   
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" /> */}
+      {/* <header className="App-header"> */}
+        <img src={logo} className="App-logo" alt="logo" />
       {/* <p>
           Edit <code>src/App.js</code> React js 
         </p>
@@ -47,6 +48,8 @@ function App() {
        <UserBasedLogin isLoggedIn={false}/> */}
 
        <LogicalOperator isLoading={true}/>
+
+       <EventHandlingExample/>
       
     </div>
 

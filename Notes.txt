@@ -979,6 +979,59 @@ Pre-requisites to learn React JS
 				  false && false
 				  false && true 
 				  
+-------------------------29-05-2023-------------------------------------------
+
+             React Event Handling 
+			 
+			 <button onclick="buttonClick()">
+			   button text
+			 </button>
+			 
+			 https://www.w3schools.com/jsref/dom_obj_event.asp
+			 
+			
+			 1. React Event Names should be in camelCase rather than lowercase
+                 <button onClick="buttonClicked()" >
+			       Button text
+			     </button>
+			 			 
+			 2. Should not mention in "" , we need to put in {} 
+			 
+			    <button onClick={buttonClicked()} >
+				
+			 3. We should not mention () 
+			 
+			     <button onClick={buttonClicked} >
+				 
+			Task : try out all the events 
+			
+			() => react will execute by default 
+			
+			click the button => onClick = {undefined}
+			
+			function sample(){
+			
+			}
+			const data = sample()
+            data => undefined 	
+
+            React List and Keys 
+			
+			Selectors in CSS 
+			
+			1. Tag based h1,h2 ,h3 ,h4
+			
+			2. Id selectors
+			   #header1{
+			    color:red
+			   }
+
+            3. Class Selectors 	
+			   .cls-1
+
+             className was introduced in react to avoid the confusion btw 
+             class components in react 			 
+           			
 			  
 			  
 			  
