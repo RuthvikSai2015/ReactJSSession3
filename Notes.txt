@@ -1015,7 +1015,6 @@ Pre-requisites to learn React JS
 			const data = sample()
             data => undefined 	
 
-            React List and Keys 
 			
 			Selectors in CSS 
 			
@@ -1030,10 +1029,141 @@ Pre-requisites to learn React JS
 			   .cls-1
 
              className was introduced in react to avoid the confusion btw 
-             class components in react 			 
-           			
+             class components in react 	
+			 
+------------------------------30-05-2023-------------------------------------------------
+
+            React List and Keys  
+
+             Html lists
+             https://www.w3schools.com/HTML/html_lists.asp
+
+             <ul>
+                 <li>Coffee</li>
+                 <li>Tea</li>
+             </ul>				
+
+             [1,2,3,4,5] = [2,4,6,8,10] => map 
+
+              numbers.map()			 
+           	  
+			    const listItems = numbers.map((value) => 
+				  <li>
+					  {value * 2}
+				  </li>
+				);
+				
+				 <li> 
 			  
+			  We get this warning if we are not using the key props 
+			  we can do operations based on index 
 			  
+			  what is the purpose of keys in list items?
+			  
+			  to uniquely identify an item in list 
+			  if we dont give key all records are same 
+			  
+			  1. read the warning and there will use the index to map to resolve
+			     the warning 
+				 
+			     <li key={0} > {1} </li>
+				 <li key={1} > {2} </li>
+				 <li key={2} > {3} </li>
+				 <li key={3} > {4} </li>
+				 <li key={4} > {5} </li>
+				 
+				 removing element 2 
+				 1. remove the entry
+				 2. re-indexing 
+				 
+				 only advantage is supressing the warning 
+				 disadvantage is the performance will impact 
+				 
+				 <li key={123} > movie1 </li>
+				 <li key={456} > movie2 </li>
+				 <li key={789} > movie3 </li>
+				 
+				2. give the unique id which we get from api response data
+				   best solution will help react to improve the performance 
+				   
+			Task: https://jsonplaceholder.typicode.com/posts 
+			
+			   const users = [{id:123,name:"kumar",email:"kumar@gmail.com",phone:876543210},
+			                  {id:456,name:"nadiya",email:"nadiya@gmail.com",phone:876543210},
+							  {id:789,name:"sireesha",email:"sireesha@gmail.com",phone:876543210}]
+							  
+		        Print the users list 
+				
+		------------------------31-05-2023------------------------------------------
+		
+		        React Hooks 
+				
+				Function Components -- static display :- header , footer 
+				Class Components -- State and Life Cycle methods 
+				
+				Life Cycle Methods :
+				
+				function doSomething(){
+				
+				}
+				doSomething()
+				
+				componentDidMount() => it will be called when it should be called only 
+				React is going to call this!!!!
+				
+				3 phases in react class components 
+				
+				1. Mounting   => whenever component is loaded
+				2. Updating   => update an action 
+				3. UnMounting => remove component from dom 
+				
+				  componentDidMount()
+				  
+				  componentDidUpdate()
+				  
+				  componentWillUnmount()
+				  
+				  Hooks are functional components to use a state and life cycle methods 
+				  
+				  Hooks are functions that let you "hook into" react features like state
+				  and life cycle methods from functional components 
+				  
+				  State => useState hook 
+				  Life Cycle Methods => useEffect 
+				  
+				  1. First rule  of react hook 
+				     the name of the hooks should be started with the "use"
+					 
+					 "use" react will understand as hook 
+					 
+					useState hook 
+					
+					const [a,b] = [10,20]; // a = 10,b=20
+					
+					useState(" initial value of the state or props value ") 
+					
+					props => birthYear , age 
+					 state => age 
+					 
+					const arrayRef = useState(0);
+					
+					useState will always return an array reference 
+					
+					State cannot be modified directly 
+					 
+    				through useState hook only we can modify the state
+					 
+				  
+				  
+				  
+				  
+				  
+				  
+				
+				
+				
+		
+		       
 			  
 			 
 			   

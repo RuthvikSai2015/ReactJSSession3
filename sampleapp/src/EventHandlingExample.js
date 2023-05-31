@@ -6,7 +6,7 @@ function EventHandlingExample(){
     }
     return (
         // <button onMouseOver={buttonClick()}>
-              <button onMouseOver={buttonClick()}>
+              <button onMouseOver={buttonClick}>
             Button Text
         </button>
     )

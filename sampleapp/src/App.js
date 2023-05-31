@@ -6,6 +6,10 @@ import Greeter from './Greeter';
 import UserBasedLogin from './UserBasedLogin';
 import LogicalOperator from './LogicalOperator';
 import EventHandlingExample from './EventHandlingExample';
+import NumbersList from './NumbersList';
+import ReactLists from './ReactLists';
+import ClassComponents from './ClassComponents';
+import ReactUseState from './ReactUseState';
 
 function App() {
   // let course = "reactjs";
@@ -15,7 +19,11 @@ function App() {
   //             };
   // const {name,email,hobbies} = user;
   // let objArray = ["1", "2", "3"];
-  
+  const Movies = [
+    {id:123,name:"movie1"},
+    {id:456,name:"movie2"},
+    {id:789,name:"movie3"}
+]
   return (
     <div className="App">
       {/* <header className="App-header"> */}
@@ -47,9 +55,16 @@ function App() {
 {/*        
        <UserBasedLogin isLoggedIn={false}/> */}
 
-       <LogicalOperator isLoading={true}/>
+       {/* <LogicalOperator isLoading={true}/>
 
-       <EventHandlingExample/>
+       <EventHandlingExample/> */}
+
+       {/* <NumbersList numbers={[1,2,3,4,5]}/> */}
+       {/* <ReactLists Movies={Movies}/> */}
+
+       {/* <ClassComponents/> */}
+
+       <ReactUseState/>
       
     </div>
 
