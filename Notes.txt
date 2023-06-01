@@ -1152,6 +1152,30 @@ Pre-requisites to learn React JS
 					State cannot be modified directly 
 					 
     				through useState hook only we can modify the state
+					
+	--------------------------01-06-2023-----------------------------------
+					
+					const [variable,setVariable] = useState(0);
+					
+	variable = 1;
+					
+    const [count,setSum] = useState(0);
+	const [count,setCount] = useState(0);
+	
+	If no initial value is provided it is taken as undefined
+	state variable 
+	
+	1. State Changes (dont mutate the state directly )
+	    setCount(count + 1);
+	2. Everytime when we update the state variables , the component will be re-rendered
+	   again ,if we directly change react has no idea to re-render again 
+	3. State changes are async and scheduled 
+	4. State results with older state value 
+	   setCount((prevCount) => prevCount+1);   
+       setCount((prevCount) => prevCount+1);
+	   
+	 https://www.w3schools.com/html/html_form_input_types.asp
+	 
 					 
 				  
 				  
