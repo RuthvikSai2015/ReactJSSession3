@@ -1157,24 +1157,27 @@ Pre-requisites to learn React JS
 					
 					const [variable,setVariable] = useState(0);
 					
-	variable = 1;
+					variable = 1;
+									
+					const [count,setSum] = useState(0);
+					const [count,setCount] = useState(0);
 					
-    const [count,setSum] = useState(0);
-	const [count,setCount] = useState(0);
-	
-	If no initial value is provided it is taken as undefined
-	state variable 
-	
-	1. State Changes (dont mutate the state directly )
-	    setCount(count + 1);
-	2. Everytime when we update the state variables , the component will be re-rendered
-	   again ,if we directly change react has no idea to re-render again 
-	3. State changes are async and scheduled 
-	4. State results with older state value 
-	   setCount((prevCount) => prevCount+1);   
-       setCount((prevCount) => prevCount+1);
-	   
-	 https://www.w3schools.com/html/html_form_input_types.asp
+					If no initial value is provided it is taken as undefined
+					state variable 
+					
+					1. State Changes (dont mutate the state directly )
+						setCount(count + 1);
+					2. Everytime when we update the state variables , the component will be re-rendered
+					   again ,if we directly change react has no idea to re-render again 
+					3. State changes are async and scheduled 
+					4. State results with older state value 
+					   setCount((prevCount) => prevCount+1);   
+					   setCount((prevCount) => prevCount+1);
+					5. Reason is usestate changes are not merged , those are replaced
+					
+					 https://www.w3schools.com/html/html_form_input_types.asp
+					 
+					Task: Design the form and put the values in state (in public folder)
 	 
 					 
 				  
