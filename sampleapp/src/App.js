@@ -11,6 +11,8 @@ import ReactLists from './ReactLists';
 import ClassComponents from './ClassComponents';
 import ReactUseState from './ReactUseState';
 import ReactUseStateForm from './ReactUseStateForm';
+import UseEffectExample from './UseEffectExample';
+import UseEffectFetch from './UseEffectFetch';
 
 function App() {
   // let course = "reactjs";
@@ -66,7 +68,9 @@ function App() {
        {/* <ClassComponents/> */}
 
        {/* <ReactUseState/> */}
-       <ReactUseStateForm/>
+       {/* <ReactUseStateForm/> */}
+       {/* <UseEffectExample/> */}
+       <UseEffectFetch/>
       
     </div>
 

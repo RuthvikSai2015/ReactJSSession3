@@ -1178,6 +1178,54 @@ Pre-requisites to learn React JS
 					 https://www.w3schools.com/html/html_form_input_types.asp
 					 
 					Task: Design the form and put the values in state (in public folder)
+					
+	-------------------------------06-06-2023------------------------------------------
+	
+	                 React useEffect 
+					 
+					   componentDidMount
+					   componentDidUpdate
+					   componentWillUnmount
+					   
+					useEffect will serve the same purpose as lifecycle methods 
+					
+					useEffect runs after every render by default ,
+					it will run on both first render and state update 
+					
+					useEffect(1,2);
+					useEffect(callback,[]);
+					useEffect(() => {
+					})
+					
+					useEffect(() => {
+					
+					},[]);
+					
+					dependency array 
+					
+					ComponentWillUnMount => open any file , file reader ,socket 
+					
+---------------------07-06-2023-----------------------------------------------
+
+                1. How to do API call using useEffect
+				2. React js 18 version useEffect calls twice
+				3. Children props 
+					
+					
+	             1. fetch is a browser api 
+                 2. Axios is a third party library 
+				    npm i axios 
+					
+				   fetch('https://jsonplaceholder.typicode.com/todos/1')
+                     .then(response => response.json())
+                     .then(json => console.log(json))
+					 
+			    1. While sending the data we need to send as a string
+				2. While getting th data we need to get as json , 
+				   why json helps javascript 
+	               
+	
+	         
 	 
 					 
 				  
