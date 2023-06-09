@@ -28,9 +28,9 @@ function App() {
     {id:789,name:"movie3"}
 ]
   return (
-    <div className="App">
+    <div>
       {/* <header className="App-header"> */}
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
       {/* <p>
           Edit <code>src/App.js</code> React js 
         </p>

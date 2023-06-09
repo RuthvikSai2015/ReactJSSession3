@@ -1235,6 +1235,38 @@ Pre-requisites to learn React JS
 				  Consume the API DATA
 				  
 				  1. put the response in one state variable 
+				  
+		----------------09-06-2023--------------------------------------------
+		
+		         Task : Based on contenttype render or loop the content   
+				 hint: use conditional rendering 
+				 
+				 Rules of Hooks 
+				 
+			    1. Name Should start with "useHookName"
+				   react ensures the diff btw normal function and hook
+				   
+				2. Hooks should be called at the top level , dont call 
+				   hooks inside loops,conditions and nested function 
+				   React ensures that hooks are called in same order each time
+				   component re-renders
+				   
+				3. Only call hooks from React Function or Custom hooks
+				   dont call from regular javascript functions
+				   react ensures that all state logic in a component is clearly
+				   visible
+				   
+				 function regularFunction(){
+				    const [content,setContentType] = useState("");
+					return content;
+				 }
+				 
+				 function ReactFunction(){
+				    const [content,setContentType] = useState("");
+					return (
+					     <h1> {content} </h1>
+					);
+				 }
 	               
 	
 	         
