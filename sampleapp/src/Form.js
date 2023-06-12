@@ -7,9 +7,9 @@ function Form() {
 
     //2. use and effect for persisting the form
     if (name === "suresh") {
-        useEffect(function persistForm() {
-            localStorage.setItem("formData", name);
-        });
+        // useEffect(function persistForm() {
+        //     localStorage.setItem("formData", name);
+        // });
     }
     //3. use the surname state variable 
     const [surname, setSurName] = useState("Ramesh");

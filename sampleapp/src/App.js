@@ -13,6 +13,7 @@ import ReactUseState from './ReactUseState';
 import ReactUseStateForm from './ReactUseStateForm';
 import UseEffectExample from './UseEffectExample';
 import UseEffectFetch from './UseEffectFetch';
+import ErrorHandling,{Footer}  from './ErrorHandling';
 
 function App() {
   // let course = "reactjs";
@@ -70,8 +71,8 @@ function App() {
        {/* <ReactUseState/> */}
        {/* <ReactUseStateForm/> */}
        {/* <UseEffectExample/> */}
-       <UseEffectFetch/>
-      
+       {/* <UseEffectFetch/> */}
+        <ErrorHandling/>     
     </div>
 
   );

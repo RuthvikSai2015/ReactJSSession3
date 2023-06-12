@@ -1267,7 +1267,25 @@ Pre-requisites to learn React JS
 					     <h1> {content} </h1>
 					);
 				 }
-	               
+--------------------------12-06-2023-----------------------------------------
+
+            React Error Handling 
+			
+			React Error Boundary is a third party library 
+			
+			npm i react-error-boundary
+			
+			npm --save -D i react-error-boundary
+			
+			1. children props
+			2. diff btw default export and named export
+			3. passing data btw parent to child and child to parent 
+			
+		
+	        2.  only one default export can exist 
+                many named exports {}	
+
+        				
 	
 	         
 	 
