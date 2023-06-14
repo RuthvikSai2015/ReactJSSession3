@@ -14,6 +14,8 @@ import ReactUseStateForm from './ReactUseStateForm';
 import UseEffectExample from './UseEffectExample';
 import UseEffectFetch from './UseEffectFetch';
 import ErrorHandling,{Footer}  from './ErrorHandling';
+import ReactChildrenProps from './ReactChildrenprops';
+import ReactParentChild from './ReactParentChild';
 
 function App() {
   // let course = "reactjs";
@@ -30,7 +32,7 @@ function App() {
 ]
   return (
     <div>
-      {/* <header className="App-header"> */}
+      <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
       {/* <p>
           Edit <code>src/App.js</code> React js 
@@ -72,7 +74,17 @@ function App() {
        {/* <ReactUseStateForm/> */}
        {/* <UseEffectExample/> */}
        {/* <UseEffectFetch/> */}
-        <ErrorHandling/>     
+        {/* <ErrorHandling/>      */}
+        {/* <ReactChildrenProps> 
+             <p> This is the children comp</p>
+             <p> This is the children1 comp</p>
+             <p> This is the children2 comp</p>
+             <Greeter name = "kumar" />
+             <LogicalOperator isLoading={true}/>
+        </ReactChildrenProps> */}
+
+        <ReactParentChild/>
+       </header>
     </div>
 
   );

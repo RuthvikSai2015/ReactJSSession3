@@ -1285,6 +1285,14 @@ Pre-requisites to learn React JS
 	        2.  only one default export can exist 
                 many named exports {}	
 
+-------------------------------14-06-2023--------------------------------------
+
+            Lift the State by one level
+			
+			lifting up the state through events present in child (reference from parent)
+			
+			Parent to Child => Props
+			Child to Parent => Events 
         				
 	
 	         
