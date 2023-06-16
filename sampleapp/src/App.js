@@ -16,6 +16,9 @@ import UseEffectFetch from './UseEffectFetch';
 import ErrorHandling,{Footer}  from './ErrorHandling';
 import ReactChildrenProps from './ReactChildrenprops';
 import ReactParentChild from './ReactParentChild';
+import ColorCard from './ColorCard';
+import ColorContanier from './ColorContainer';
+import ReactRouterExample from './ReactRouterExample';
 
 function App() {
   // let course = "reactjs";
@@ -32,7 +35,7 @@ function App() {
 ]
   return (
     <div>
-      <header className="App-header">
+      {/* <header className="App-header"> */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
       {/* <p>
           Edit <code>src/App.js</code> React js 
@@ -83,8 +86,12 @@ function App() {
              <LogicalOperator isLoading={true}/>
         </ReactChildrenProps> */}
 
-        <ReactParentChild/>
-       </header>
+        {/* <ReactParentChild/> */}
+        {/* <ColorCard/>
+        <ColorCard/> */}
+        {/* <ColorContanier/> */}
+        <ReactRouterExample/>
+       {/* </header> */}
     </div>
 
   );

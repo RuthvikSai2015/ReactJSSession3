@@ -3,11 +3,14 @@ import App from './App';  // App which exists under src folder
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <App /> 
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
   // </React.StrictMode>
 );
 

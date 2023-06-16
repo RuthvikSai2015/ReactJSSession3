@@ -1293,6 +1293,45 @@ Pre-requisites to learn React JS
 			
 			Parent to Child => Props
 			Child to Parent => Events 
+			
+-------------------------------15-06-2023------------------------------------
+
+            How to create a simple react style component ?
+			
+			background-color => backgroundColor 
+			
+			{{backgroundColor:"blue"}}
+			
+			{} 
+			first flower braces tells that you are using javascript in jsx
+			
+			second flower braces to tell that it is a javascript object 
+			
+			backgroundColor
+			
+			style={{backgroundColor:"blue",fontSize:10px}}'
+			
+======================16-06-2023================================================
+
+              React Router v6
+			  
+			  Routing is the concept of rendering the particluar component 
+			  which is attached to Routes
+			  
+			  npm i react-router-dom
+			  
+			  v6 instead of v5 
+			  v5 is a smaller bundler size
+			  
+			  1. Wrapping Parent Container in BrowserRouter 
+			  2. We have Route to define the each route to application
+			      ->path
+                  -> which component has to render(element)(this component should return some jsx)				  
+			  3. Wrap all Route in <Routes> container 
+			  
+			  
+			  Task: access the path which is not present add a image 404 images 
+			  
         				
 	
 	         
