@@ -1332,6 +1332,17 @@ Pre-requisites to learn React JS
 			  
 			  Task: access the path which is not present add a image 404 images 
 			  
+		=================20-06-2023===========================================
+		
+		    when to use useNavigate ?
+			    when we are using javascript code 
+			when to use Link?
+			    link can be used in jsx 
+				
+				to ="/posts/1"
+				to= "/posts/2"
+				to="posts/2"
+			  
         				
 	
 	         
