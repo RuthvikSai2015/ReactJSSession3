@@ -1,4 +1,4 @@
-import { Route, Routes, Link ,useNavigate} from 'react-router-dom';
+import { Route, Routes, Link ,useNavigate, useParams, Outlet} from 'react-router-dom';
 import {useEffect,useState} from "react";
 function Home() {
     return <h1> Home Component</h1>
@@ -37,12 +37,14 @@ function Posts(){
             .then(json => setContent(json))
     }, []);
     return (
+        <>  
+         <Outlet/>   
         <ul>
             {
                 content.map((post) => {
                     return (
                         <> 
-                        <li><Link to={`/posts/${post.id}`}>{post.id}</Link></li>
+                        <li><Link to={`${post.id}`}>{post.id}</Link></li>
                         </>
                     )
                 }
@@ -50,11 +52,24 @@ function Posts(){
                 )
             }
         </ul>
+       
+        </>
     )
 }
 function Post(){
+    const [content,setContent] = useState({});
+    // console.log("use params----------",useParams());
+    const {id} = useParams();
+    console.log(`id--------- ${id}`)
+    useEffect(() => {
+        fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
+            .then(response => response.json())
+            .then(json => setContent(json))
+    }, [id]);
     return (
         <>
+          <p>{content.id}</p>
+          <p>{content.body}</p>
         </>
     )
 }

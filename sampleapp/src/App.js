@@ -19,6 +19,7 @@ import ReactParentChild from './ReactParentChild';
 import ColorCard from './ColorCard';
 import ColorContanier from './ColorContainer';
 import ReactRouterExample from './ReactRouterExample';
+import UseEffectTwo from './UseEffectTwo';
 
 function App() {
   // let course = "reactjs";
@@ -90,7 +91,8 @@ function App() {
         {/* <ColorCard/>
         <ColorCard/> */}
         {/* <ColorContanier/> */}
-        <ReactRouterExample/>
+        {/* <ReactRouterExample/> */}
+        <UseEffectTwo/>
        {/* </header> */}
     </div>
 

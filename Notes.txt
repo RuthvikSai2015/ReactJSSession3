@@ -1343,10 +1343,11 @@ Pre-requisites to learn React JS
 				to= "/posts/2"
 				to="posts/2"
 			  
-        				
-	
-	         
+============================21-06-2023==============================
+
+         useParams => used for getting url parameters
 	 
+	     Outlet => it acts as a place holder for the children component 
 					 
 				  
 				  
