@@ -1348,7 +1348,25 @@ Pre-requisites to learn React JS
          useParams => used for getting url parameters
 	 
 	     Outlet => it acts as a place holder for the children component 
+		 
+		 Task : https://jsonplaceholder.typicode.com/users
+		 
+========================22-06-2023====================================
+
+             <li><Link to={`/posts/${post.id}`}>{post.id}</Link></li>
+             <li><Link to={`${post.id}`}>{post.id}</Link></li>
+
+         CSS Grid and CSS Flex box 
 					 
+		   <div>  is it informative?
+		   <section>  is it informative? yes
+		   
+		   https://www.w3schools.com/html/html5_semantic_elements.asp
+		   
+		   https://css-tricks.com/snippets/css/complete-guide-grid/
+		   
+		  Task: Practise the same session
+		        Make this in react component 
 				  
 				  
 				  

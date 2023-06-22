@@ -44,6 +44,7 @@ function Posts(){
                 content.map((post) => {
                     return (
                         <> 
+                        <li><Link to={`/posts/${post.id}`}>{post.id}</Link></li>
                         <li><Link to={`${post.id}`}>{post.id}</Link></li>
                         </>
                     )

@@ -91,8 +91,8 @@ function App() {
         {/* <ColorCard/>
         <ColorCard/> */}
         {/* <ColorContanier/> */}
-        {/* <ReactRouterExample/> */}
-        <UseEffectTwo/>
+        <ReactRouterExample/>
+        {/* <UseEffectTwo/> */}
        {/* </header> */}
     </div>
 
