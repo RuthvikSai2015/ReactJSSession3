@@ -20,6 +20,7 @@ import ColorCard from './ColorCard';
 import ColorContanier from './ColorContainer';
 import ReactRouterExample from './ReactRouterExample';
 import UseEffectTwo from './UseEffectTwo';
+import ReactFormExample from './ReactFormExample';
 
 function App() {
   // let course = "reactjs";
@@ -91,7 +92,8 @@ function App() {
         {/* <ColorCard/>
         <ColorCard/> */}
         {/* <ColorContanier/> */}
-        <ReactRouterExample/>
+        {/* <ReactRouterExample/> */}
+        <ReactFormExample/>
         {/* <UseEffectTwo/> */}
        {/* </header> */}
     </div>

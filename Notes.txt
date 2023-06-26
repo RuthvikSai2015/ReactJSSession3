@@ -1355,6 +1355,9 @@ Pre-requisites to learn React JS
 
              <li><Link to={`/posts/${post.id}`}>{post.id}</Link></li>
              <li><Link to={`${post.id}`}>{post.id}</Link></li>
+			 
+			 localhost:3000/posts
+			 localhost:3000/posts/id          localhost:3000/posts/1
 
          CSS Grid and CSS Flex box 
 					 
@@ -1367,6 +1370,22 @@ Pre-requisites to learn React JS
 		   
 		  Task: Practise the same session
 		        Make this in react component 
+				
+=======================23-06-2023==============================================
+
+             https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+			 
+			 https://react-bootstrap.github.io/
+			 https://react-bootstrap.github.io/docs/getting-started/introduction
+			 
+			 Task: Design a bootstrap header / grid and flex 
+			 
+====================26-06-2023===============================================
+
+           React Forms
+
+          1) Plain React Part
+          2) Formik and Yup Library 		  
 				  
 				  
 				  
