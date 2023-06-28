@@ -1,0 +1,10 @@
+.change-color
+{
+    color:red;
+}
+.carousel-item img {
+    height:400px !important
+}
+.carousel-caption{
+    color:black;
+}

@@ -1386,6 +1386,35 @@ Pre-requisites to learn React JS
 
           1) Plain React Part
           2) Formik and Yup Library 		  
+		 
+===============28-08-2023================================================
+
+         Bootstrap 
+		 
+		 mobile-first ,primary focus was mobile-first
+		 
+		 =>It writes Internal CSS
+		 =>Browser goes to that page and carry entire CSS into Cache memory 
+		 =>By default it will apply some styles to elements 
+		 =>provides built in components which are responsive 
+		 =>comprises html,css,fonts,js
+		 
+		 A content delivery Network(CDN) is a system of distributed servers that
+		  delivers pages and content to the user 
+		  
+		  CSS Prorities
+		  
+		  Inline > Internal > External 
+		  
+		  override the styles => !important 
+		  
+		  https://getbootstrap.com/docs/5.0/getting-started/introduction/
+		  
+		  d-lg-none => display large none => the display:none in large devices
+
+         	d-flex <Flex>
+			
+			1368 × 725 px => standard resolution 
 				  
 				  
 				  
