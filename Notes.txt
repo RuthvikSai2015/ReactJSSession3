@@ -1385,7 +1385,9 @@ Pre-requisites to learn React JS
            React Forms
 
           1) Plain React Part
-          2) Formik and Yup Library 		  
+          2) Formik and Yup Library 	
+
+              npm install formik yup		  
 		 
 ===============28-08-2023================================================
 
@@ -1415,6 +1417,17 @@ Pre-requisites to learn React JS
          	d-flex <Flex>
 			
 			1368 × 725 px => standard resolution 
+================================03=07-2023============================================
+
+           formik is a small library which helps
+		   
+		       validations are painless
+		   
+		   1) getting values in and out from formik 
+		   2) validation and error messages (yum schema)
+		   3) handling form submissions
+		   
+		    npm install formik yup
 				  
 				  
 				  

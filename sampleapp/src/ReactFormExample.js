@@ -1,34 +1,33 @@
-import Button from "react-bootstrap/Button";
-import { useState } from "react";
+import Button from 'react-bootstrap/Button'
+import { useState } from 'react'
 function ReactFormExample() {
-    const initialValues = {
-        email:"",
-        password:""
-    };
-    const [formValues,setFormValues] = useState(initialValues);
-    const [formErrors,setFormErrors] = useState({})//email is blank,password is blank 
-    const handleInputChange = (event) =>{
-       // console.log(event.target);
-       // [event.target.name]:event.target.value
-        const {name,value} = event.target;
 
+    const initialValues = { email: "", password: "" }
+    const [formValues, setFormValues] = useState(initialValues) //user Input
+    const [formErrors, setFormErrors] = useState({})// user validations
+    const handleInputChange = (event) => {
+        const { name, value } = event.target;
         setFormValues(
-           {...formValues,[name]:value}
-
-        ) 
-        console.log(formValues);
+            { ...formValues, [name]: value }
+        )
     }
-    const handleSubmit = (event) =>{
-        event.preventDefault();
-        setFormErrors(validate(formValues)); //formValues.email , formValues.password
+    const handleSubmit = () => {
+       // event.preventDefault();
+        setFormErrors(validate(formValues));
     }
-    const validate = (values) =>{
+    const validate = (values) => {
         let errors = {};
-        if(!values.email){ // if(""){} else {}
-            errors.email = "Email is required";
+        const regexp = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+        if (!values.email) {
+            errors.email = " Email is required ";
+        } else if (!regexp.test(values.email)) {
+            errors.email = "Invalid email format";
         }
-        if(!values.password){ // if(""){} else {}
-            errors.password = "Password is required";
+
+        if (!values.password) {
+            errors.password = "Password is required"
+        } else if(values.password.length < 8){
+            errors.password = "Password should contain atleast 8 characters"
         }
         console.log(errors);
         return errors;
@@ -38,16 +37,23 @@ function ReactFormExample() {
             <h1> Sign In Form</h1>
             <form>
                 <div>
-                    <label>Email :</label>
-                    <input type="email" name="email" id="email" onChange={handleInputChange}/>
+                    <label> Email </label>
+                    <input type="email" name="email" id="email" onChange={handleInputChange} />
+                    {
+                        formErrors.email &&  <span style = {{color:'red'}}>{formErrors.email}</span>
+                    }
+                 
                 </div>
                 <div>
-                    <label>Password:</label>
-                    <input type="password" name="password" id="password" onChange={handleInputChange}/>
+                    <label> Password </label>
+                    <input type="password" name="password" id="password" onChange={handleInputChange} />
+                    {
+                        formErrors.password &&  <span style = {{color:'red'}}>{formErrors.password}</span>
+                    }
                 </div>
                 <Button onClick={handleSubmit}>Submit</Button>
             </form>
         </>
     )
 }
-export default ReactFormExample
+export default ReactFormExample;
