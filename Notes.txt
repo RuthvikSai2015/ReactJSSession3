@@ -1385,6 +1385,10 @@ Pre-requisites to learn React JS
            React Forms
 
           1) Plain React Part
+		  
+		     Task : Password , add dropdowns , add some checkboxes
+                    disabling the sign in 			 
+			 
           2) Formik and Yup Library 	
 
               npm install formik yup		  
@@ -1424,12 +1428,71 @@ Pre-requisites to learn React JS
 		       validations are painless
 		   
 		   1) getting values in and out from formik 
-		   2) validation and error messages (yum schema)
+		   2) validation and error messages (yup schema)
 		   3) handling form submissions
 		   
 		    npm install formik yup
+			
+			Formik Elements => Form,Field,ErrorMessage
+			
+			1.declare the formik elements
+			2.declare a schema
 				  
-				  
+			Formik accepts 3 attributes 
+
+            1. Initial Values
+            2. Validation Schema 
+            3. on Submit event 
+
+            https://formik.org/
+
+            https://www.npmjs.com/package/yup	
+
+             email not valid 
+             password not valid => isValid => false
+
+             valid => isValid 	=> true 	
+  
+            Task : Password , add dropdowns , add some checkboxes
+			       disabling the sign in 
+				   
+=================================04-07-2023==============================
+
+            React Context API
+			
+			Props Drilling Problem 
+			
+			1.React Context allows us to pass data down to any component without props 
+			2. React context allows us to share data across our components easily 
+			
+			ways of creating context
+			
+			1. rendered passed props 
+			2. useContext
+			
+			1.create context
+			  make a provider 
+			  put my consumer inside the provider 
+			  
+			Usecases React Context 
+			
+			1. If you want to use some user data across components
+			2. Thyme data (light or dark) 
+			3. Authentication 
+			
+	==============================================================================
+			
+			Integration with Nodejs
+			Integration with Spring Boot 
+			
+			
+			
+			
+			
+			
+             			 
+						 
+			
 				  
 				  
 				  

@@ -21,6 +21,8 @@ import ColorContanier from './ColorContainer';
 import ReactRouterExample from './ReactRouterExample';
 import UseEffectTwo from './UseEffectTwo';
 import ReactFormExample from './ReactFormExample';
+import FormikYup from './FormikYup';
+import ReactContextExample from './ReactContextExample';
 
 function App() {
   // let course = "reactjs";
@@ -88,12 +90,14 @@ function App() {
              <LogicalOperator isLoading={true}/>
         </ReactChildrenProps> */}
 
-        {/* <ReactParentChild/> */}
+        <ReactParentChild/>
         {/* <ColorCard/>
         <ColorCard/> */}
         {/* <ColorContanier/> */}
         {/* <ReactRouterExample/> */}
-        <ReactFormExample/>
+        {/* <ReactFormExample/> */}
+        {/* <FormikYup/> */}
+        {/* <ReactContextExample/> */}
         {/* <UseEffectTwo/> */}
        {/* </header> */}
     </div>
