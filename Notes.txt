@@ -1483,7 +1483,49 @@ Pre-requisites to learn React JS
 	==============================================================================
 			
 			Integration with Nodejs
-			Integration with Spring Boot 
+			
+			create a react project 
+			
+		    npx create-react-app <project-name> client
+			
+			create a nodejs project
+			
+			npx express-generator <project-name> api
+			
+			express => help nodejs to develop apis
+			
+			client and api(backend)
+			
+			default port for reactjs 3000
+			default port for nodejs  3000
+			
+			1. you need to modify the port for reactjs
+			2. you need to modify the port for nodejs
+			
+			api> npm install 
+			
+			go to bin -> www folder and modify the default port no 4000
+			
+			create an api 
+			
+			CORS policy
+			
+			npm i -S cors
+			
+			Task: output types 
+			
+			String,
+			Object,
+			Array Of Object , 
+			
+===============================================================================
+			
+			
+			 
+			
+			
+			
+			
 			
 			
 			
