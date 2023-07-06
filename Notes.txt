@@ -1519,7 +1519,33 @@ Pre-requisites to learn React JS
 			Array Of Object , 
 			
 ===============================================================================
+
+           Redux 
 			
+			1. Redux is a design pattern (solution to common problem)
+			
+			context API 
+			small scale dont use redux
+			
+			2.why to use redux?
+			 if application is large and maintain state => redux
+
+            3. Redux helps us to maintain state management in an application
+
+          Redux keeps some rules
+
+         1. Frequent update no context api
+         2. Frequent state update and then we can go for redux
+
+         npm install redux react-redux @reduxjs/toolkit
+
+          redux => design pattern
+          react-redux => redux features to make use of those features into react
+                         smoothly 	
+
+          @reduxjs/toolkit 		
+
+          https://redux.js.org/		  
 			
 			 
 			
