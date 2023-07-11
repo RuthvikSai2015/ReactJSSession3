@@ -23,6 +23,8 @@ import UseEffectTwo from './UseEffectTwo';
 import ReactFormExample from './ReactFormExample';
 import FormikYup from './FormikYup';
 import ReactContextExample from './ReactContextExample';
+import DataLoadingCustomeHook from './DataLoadingCustomHook';
+import SpringBootExample from './SpringBootExample';
 
 function App() {
   // let course = "reactjs";
@@ -90,7 +92,7 @@ function App() {
              <LogicalOperator isLoading={true}/>
         </ReactChildrenProps> */}
 
-        <ReactParentChild/>
+        {/* <ReactParentChild/> */}
         {/* <ColorCard/>
         <ColorCard/> */}
         {/* <ColorContanier/> */}
@@ -100,6 +102,8 @@ function App() {
         {/* <ReactContextExample/> */}
         {/* <UseEffectTwo/> */}
        {/* </header> */}
+       {/* <DataLoadingCustomeHook/> */}
+       <SpringBootExample/>
     </div>
 
   );

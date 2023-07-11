@@ -1545,7 +1545,57 @@ Pre-requisites to learn React JS
 
           @reduxjs/toolkit 		
 
-          https://redux.js.org/		  
+          https://redux.js.org/		
+
+=======================10-07-2023==================================
+          1.Header
+          2.React Carousel Components
+		  3.Card Components
+		  4.Footer
+
+         React Custom hooks 
+		 
+		 There some logic re-writing multiple times in your codebase then you can think
+		 of creating custom hooks 
+		 
+		 Integration with Spring boot and React 
+		 host your application on firebase 
+		 
+====================11-07-2023===========================================
+
+          Integration with spring boot 
+		  
+		  vs code , 2 extensions
+		  
+		  1. Java in your machine
+		      https://www.oracle.com/java/technologies/downloads/
+			  
+			  java --version
+			  
+			 set JAVA_HOME env variable C:\Program Files\Java\jdk-18.0.2.1\bin
+			 
+			 https://spring.io/tools/
+			 
+			vs code extension : java Extension pack(2 option)
+			
+			                    Spring boot extension pack
+								
+		 2. Create a spring boot application 
+		 
+		     https://start.spring.io/
+								
+			Controller => define an api => expose path 
+			
+			
+		3. called the api in react 
+		    not reachable cross origin 
+			
+	    4.@CrossOrigin annotation 
+			
+
+        
+
+        		 
 			
 			 
 			
