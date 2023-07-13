@@ -1559,7 +1559,7 @@ Pre-requisites to learn React JS
 		 of creating custom hooks 
 		 
 		 Integration with Spring boot and React 
-		 host your application on firebase 
+		 host your application on cloud 
 		 
 ====================11-07-2023===========================================
 
@@ -1591,6 +1591,51 @@ Pre-requisites to learn React JS
 		    not reachable cross origin 
 			
 	    4.@CrossOrigin annotation 
+		
+=================12-07-2023=====================================
+
+       Hosting our application on cloud 
+	   
+	   firebase 
+	   netify
+	   github 
+	   
+	   1. Host 
+	   
+	   https://console.firebase.google.com/u/0/
+	   
+	   Create an account
+	   1.create a project in above site 
+	      react-hosting-july
+	   2. we need a production ready code
+	      npm run build
+		  npm install -g serve
+		  serve -s build
+		  
+	   3. firebase login
+	      give ur username and password 
+		  
+	   4. firebase init
+	      Hosting (use down arrows and for selection space)
+		  Use an existing project (use down arrows)
+		    react-hosting-july
+		  build
+		  yes 
+		  No
+		  
+		5. firebase deploy
+		   url => application is deployed 
+		   
+		   https://app.daily.dev/?ref=install
+		   
+		   savi.ruthvik@gmail.com
+		   
+		   
+=======================================================================
+	   
+	   
+
+
 			
 
         
